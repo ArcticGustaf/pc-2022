@@ -4,9 +4,9 @@
  */
 package lamp_thing.impl;
 
-public class LampDeviceSimulator implements LampDevice {
+public class LampDeviceSimulator implements LightSensorDevice {
 
-	private LampSimFrame frame;
+	private LightSensorDeviceSimFrame frame;
 	private String lightID;
 	
 	public LampDeviceSimulator(String lightID){
@@ -14,7 +14,7 @@ public class LampDeviceSimulator implements LampDevice {
 	}
 	
 	public void init() {
-		frame = new LampSimFrame(lightID);
+		frame = new LightSensorDeviceSimFrame(lightID);
 		frame.display();
 	}
 	

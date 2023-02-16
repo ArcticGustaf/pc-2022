@@ -14,7 +14,7 @@ public class RunLampThingConsumerMQTT {
 		Future<Void> fut = thing.setup(vertx);
 		
 		fut.onSuccess(h -> {
-			vertx.deployVerticle(new VanillaLampThingConsumerAgent(thing));
+			vertx.deployVerticle(new VanillaLightSensorDeviceThingConsumerAgent(thing));
 		});
 	}
 

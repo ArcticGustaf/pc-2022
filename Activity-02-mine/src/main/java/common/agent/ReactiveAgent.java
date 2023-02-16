@@ -6,8 +6,7 @@ import io.vertx.core.json.JsonObject;
 
 /**
  * Base class for simple event-loop based agents using WoT things
- * 
- * @author aricci
+ *
  *
  */
 public abstract class ReactiveAgent extends AbstractVerticle {

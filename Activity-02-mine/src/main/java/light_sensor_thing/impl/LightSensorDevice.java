@@ -1,9 +1,8 @@
-package light_sensor_thing.impl;
+package lamp_thing.impl;
 
-import common.EventSource;
+public interface LightSensorDevice {
+	
+	void on();
+	void off();
 
-public interface LightSensorDevice extends EventSource {
-
-	double getLuminosity();
-		
 }

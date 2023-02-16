@@ -13,10 +13,10 @@ public class RunLampThingService {
 	public static void main(String[] args) {
 		Vertx vertx = Vertx.vertx();
 
-		LampThingModel model = new LampThingModel("MyLamp");
+		LampDeviceThingModel model = new LampDeviceThingModel("MyLamp");
 		model.setup(vertx);
 		
-		LampThingService service = new LampThingService(model);
+		LightSensorDeviceThingService service = new LightSensorDeviceThingService(model);
 		vertx.deployVerticle(service);
 	}
 

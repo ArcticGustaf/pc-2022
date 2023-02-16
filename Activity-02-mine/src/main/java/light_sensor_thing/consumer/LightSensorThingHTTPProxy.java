@@ -1,4 +1,4 @@
-package light_sensor_thing.consumer;
+package lamp_thing.consumer;
 
 import io.vertx.core.Future;
 import io.vertx.core.Handler;
@@ -11,8 +11,7 @@ import io.vertx.ext.web.client.WebClient;
 
 /**
  * Proxy to interact with a PresDetectThing using HTTP protocol
- * 
- * @author aricci
+ * No use of MQTT for light sensor
  *
  */
 public class LightSensorThingHTTPProxy implements LightSensorThingAPI {
@@ -26,7 +25,7 @@ public class LightSensorThingHTTPProxy implements LightSensorThingAPI {
 	private static final String THING_BASE_PATH = "/api";
 	private static final String TD_FULL_PATH = THING_BASE_PATH;
 	private static final String PROPERTIES_BASE_PATH = THING_BASE_PATH + "/properties";
-	private static final String PROPERTY_LIGHT_LEVEL = "lightLevel";
+	private static final String PROPERTY_LIGHT_LEVEL = "LightLevel";
 	private static final String PROPERTY_LIGHT_LEVEL_FULL_PATH = PROPERTIES_BASE_PATH + "/" + PROPERTY_LIGHT_LEVEL;
 	private static final String EVENTS_FULL_PATH = THING_BASE_PATH + "/events";
 			
@@ -77,6 +76,7 @@ public class LightSensorThingHTTPProxy implements LightSensorThingAPI {
 		});
 		return promise.future();			
 	}
+	
 
 	@Override
 	public Future<JsonObject> getTD() {

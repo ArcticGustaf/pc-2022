@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="30cf8537-21b6-498f-8c41-5e80110abe27" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/pc-2022.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activity-03-mine/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activity-03-mine/src/main/java/common/AbstractEventSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activity-03-mine/src/main/java/common/BasicAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activity-03-mine/src/main/java/common/BasicEventLoopAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activity-03-mine/src/main/java/common/BasicSuperLoopAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activity-03-mine/src/main/java/common/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activity-03-mine/src/main/java/common/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activity-03-mine/src/main/java/common/EventSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activity-03-mine/src/main/java/common/ThingAbstractAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activity-03-mine/src/main/java/common/Timer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activity-03-mine/src/main/java/common/TimerEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activity-03-mine/src/main/java/lamp_dt/consumer/RunLampDTConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activity-03-mine/src/main/java/lamp_dt/consumer/VanillaLampDTConsumerAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activity-03-mine/src/main/java/lamp_dt/impl/LampDTAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activity-03-mine/src/main/java/lamp_dt/impl/LampDTAppAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activity-03-mine/src/main/java/lamp_dt/impl/LampDTModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activity-03-mine/src/main/java/lamp_dt/impl/LampDTService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activity-03-mine/src/main/java/lamp_dt/impl/LampDTShadAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activity-03-mine/src/main/java/lamp_dt/impl/LampDTShadMQTT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activity-03-mine/src/main/java/lamp_dt/impl/LampPAShadMQTT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activity-03-mine/src/main/java/lamp_dt/impl/RunLampDTService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activity-03-mine/src/main/java/lamp_thing/impl/LampDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activity-03-mine/src/main/java/lamp_thing/impl/LampDeviceSimulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activity-03-mine/src/main/java/lamp_thing/impl/LampSimFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activity-03-mine/src/main/java/lamp_thing/impl/LampThingMQTTAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activity-03-mine/src/main/java/lamp_thing/impl/LampThingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activity-03-mine/src/main/java/lamp_thing/impl/RunLampThingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activity-03-mine/src/main/java/lamp_thing/impl/ThingAbstractAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/common/agent/ReactiveAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/Activity-02-mine/src/main/java/common/agent/ReactiveAgent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/lamp_thing/consumer/LampThingHTTPProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/lamp_thing/consumer/LampThingMQTTProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Activity-02-mine/src/main/java/light_sensor_thing/consumer/LightSensorThingMQTTProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/lamp_thing/consumer/RunLampThingConsumerHTTP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/lamp_thing/consumer/RunLampThingConsumerMQTT.java" beforeDir="false" afterPath="$PROJECT_DIR$/Activity-02-mine/src/main/java/lamp_thing/consumer/RunLampThingConsumerMQTT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/lamp_thing/impl/LampDeviceSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Activity-02-mine/src/main/java/lamp_thing/impl/LampDeviceSimulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/lamp_thing/impl/LampThingHTTPAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Activity-03-mine/src/main/java/lamp_thing/impl/LampThingHTTPAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/lamp_thing/impl/LampThingMQTTAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Activity-02-mine/src/main/java/lamp_thing/impl/LampThingMQTTAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/lamp_thing/impl/LampThingModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Activity-03-mine/src/main/java/lamp_thing/impl/LampThingModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/lamp_thing/impl/LampThingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Activity-02-mine/src/main/java/lamp_thing/impl/LampThingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/lamp_thing/impl/RunLampThingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Activity-02-mine/src/main/java/lamp_thing/impl/RunLampThingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/light_sensor_thing/consumer/LightSensorThingAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/light_sensor_thing/consumer/LightSensorThingHTTPProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/light_sensor_thing/consumer/RunLightSensorThingConsumerHTTP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/light_sensor_thing/consumer/VanillaLightSensorThingConsumerAgent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/light_sensor_thing/impl/LightLevelChanged.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/light_sensor_thing/impl/LightSensorDevice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/light_sensor_thing/impl/LightSensorFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/light_sensor_thing/impl/LightSensorSimulator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/light_sensor_thing/impl/LightSensorThingAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/light_sensor_thing/impl/LightSensorThingHTTPAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/light_sensor_thing/impl/LightSensorThingModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Activity-02-mine/src/main/java/lamp_thing/impl/LampDeviceThingModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/light_sensor_thing/impl/LightSensorThingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/light_sensor_thing/impl/RunLightSensorThingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/pres_detect_thing/consumer/PresDetectThingAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/pres_detect_thing/consumer/PresDetectThingHTTPProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/pres_detect_thing/consumer/RunPresDetectThingConsumerHTTP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/pres_detect_thing/consumer/VanillaPresDetectThingConsumerAgent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/pres_detect_thing/impl/PresDetectSensorSimulator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/pres_detect_thing/impl/PresDetectThingAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/pres_detect_thing/impl/PresDetectThingHTTPAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/pres_detect_thing/impl/PresDetectThingModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/pres_detect_thing/impl/PresDetectThingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/pres_detect_thing/impl/PresenceDetected.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/pres_detect_thing/impl/PresenceDetectionDevice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/pres_detect_thing/impl/PresenceDetectionFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/pres_detect_thing/impl/PresenceNoMoreDetected.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/pres_detect_thing/impl/RunPresDetectThingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/smart_room_agent/LampThingAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Activity-03-mine/src/main/java/lamp_thing/impl/LampThingAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/smart_room_agent/LampThingProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Activity-03-mine/src/main/java/lamp_dt/consumer/LampDTProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/smart_room_agent/LightSensorThingAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Activity-03-mine/src/main/java/lamp_dt/consumer/LampDTAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/smart_room_agent/LightSensorThingProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/smart_room_agent/PresDetectThingAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/smart_room_agent/PresDetectThingProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/smart_room_agent/RunSmartRoomAgent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/smart_room_agent/SmartRoomAgent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/smart_room_agent/Timer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/smart_room_agent_refined/RunSmartRoomAgent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/smart_room_agent_refined/SmartRoomAgent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/main/java/smart_room_agent_refined/Timer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity-02-mine/src/node-red/smart-room.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2Ija6K45lXwSqaSbhtWq9O1Q3Jh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/EIT/courses/Pervasive Computing/part1/pc-2022/Activity-01&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.48505747&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Gradle.E:/EIT/courses/Pervasive Computing/part1/pc-2022/Activity-01/build.gradle">
+    <configuration name="E:/EIT/courses/Pervasive Computing/part1/pc-2022/Activity-01/build.gradle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Activity-01/build.gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="E:/EIT/courses/Pervasive Computing/part1/pc-2022/Activity-02/build.gradle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Activity-02/build.gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.E:/EIT/courses/Pervasive Computing/part1/pc-2022/Activity-01/build.gradle" />
+        <item itemvalue="Gradle.E:/EIT/courses/Pervasive Computing/part1/pc-2022/Activity-02/build.gradle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="30cf8537-21b6-498f-8c41-5e80110abe27" name="变更" comment="" />
+      <created>1670697272814</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670697272814</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

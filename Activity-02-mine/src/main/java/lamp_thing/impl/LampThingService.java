@@ -19,13 +19,13 @@ import io.vertx.core.Promise;
  */
 public class LampThingService extends AbstractVerticle {
 
-	private LampThingAPI model;
+	private LightSensorDeviceThingAPI model;
 	private List<ThingAbstractAdapter> adapters;
 	
 	public static final int HTTP_PORT = 8888;
 	public static final int MQTT_PORT = 1883;
 	
-	public LampThingService(LampThingAPI model) {
+	public LampThingService(LightSensorDeviceThingAPI model) {
 		this.model = model;
 		adapters = new LinkedList<ThingAbstractAdapter>();
 	}
@@ -67,7 +67,7 @@ public class LampThingService extends AbstractVerticle {
 			/*
 			 * Installing MQTT adapter.
 			 */
-			LampThingMQTTAdapter mqttAdapter = new LampThingMQTTAdapter(model, "localhost", MQTT_PORT, this.getVertx());
+			LightSensorDeviceThingMQTTAdapter mqttAdapter = new LightSensorDeviceThingMQTTAdapter(model, "localhost", MQTT_PORT, this.getVertx());
 			Promise<Void> p = Promise.promise();
 			mqttAdapter.setupAdapter(p);
 			Future<Void> fut = p.future();

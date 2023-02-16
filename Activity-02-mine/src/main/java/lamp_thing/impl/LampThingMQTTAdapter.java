@@ -9,7 +9,7 @@ import io.vertx.core.buffer.Buffer;
 import io.vertx.core.eventbus.Message;
 import io.vertx.core.json.JsonObject;
 
-public class LampThingMQTTAdapter extends ThingAbstractAdapter<LampThingAPI> {
+public class LampThingMQTTAdapter extends ThingAbstractAdapter<LightSensorDeviceThingAPI> {
 
     private MqttClient client;	
     private final int qos = 1;
@@ -18,7 +18,7 @@ public class LampThingMQTTAdapter extends ThingAbstractAdapter<LampThingAPI> {
 	private String thingRequestsTopic;
 	private String thingEventsTopic;
 	
-	public LampThingMQTTAdapter(LampThingAPI model, String host, int port, Vertx vertx) throws Exception {
+	public LampThingMQTTAdapter(LightSensorDeviceThingAPI model, String host, int port, Vertx vertx) throws Exception {
 		super(model, vertx);
 		this.host = host;
 		this.port = port;

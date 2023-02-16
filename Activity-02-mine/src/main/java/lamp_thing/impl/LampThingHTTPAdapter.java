@@ -41,7 +41,7 @@ public class LampThingHTTPAdapter extends ThingAbstractAdapter<LampThingAPI> {
 	// event support
 	private LinkedList<ServerWebSocket> subscribers;
 
-	public LampThingHTTPAdapter(LampThingAPI model, String host, int port, Vertx vertx) {
+	public LampThingHTTPAdapter(LightSensorDeviceThingAPI model, String host, int port, Vertx vertx) {
 		super(model, vertx);
 		this.thingHost = host;
 		this.thingPort = port;
